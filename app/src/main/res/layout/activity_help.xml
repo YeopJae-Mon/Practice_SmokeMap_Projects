@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffb">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:text="
+        1.본 어플은 구글 맴 api를 사용하였습니\n
+        다.\n
+        \n
+        2.본 어플의 정보는 공공데이터포털을 사\n
+        용 하였습니다.\n
+        \n
+        3.본 어플은 시험작으로 디자인적으로 미\n
+        숙합니다. 귀엽게 봐주세요ㅠㅠ\n
+        \n
+        4.위치 데이터를 받으나 실내에 있을 경\n
+        우 위치정보를 받는데 시간이 걸릴 수 있\n
+        습니다.\n
+        \n
+        5.다시한번 어플을 다운받아 주신분은 정\n
+        말 감사합니다."
+        android:textSize="20sp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/text01"/>
+
+</RelativeLayout>
